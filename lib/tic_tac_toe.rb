@@ -149,7 +149,7 @@ while over?(board)!= true
 turn(board)
 if won?(board)==true 
   return "Congratulations!"
-  elsif draw?(board)
+  elsif draw?(board)==true 
   return "Cat's game!"
 end ##kind of a pseudocode for general idea 
 end 
