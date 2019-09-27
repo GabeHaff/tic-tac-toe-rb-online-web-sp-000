@@ -147,7 +147,7 @@ end
 def play(board)
 until over?(board)
 turn(board)
-if won?(board)
+
   
 end ##kind of a pseudocode for general idea 
 
