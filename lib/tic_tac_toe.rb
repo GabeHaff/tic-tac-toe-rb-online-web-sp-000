@@ -145,11 +145,11 @@ def winner(board)
 end
    
 def play(board)
-until over?(board)== true 
+until over?(board)
 turn(board)
-if won?(board)==true 
+if won?(board)
   return "Congratulations!"
-  elsif draw?(board)==true 
+  elsif draw?(board) 
   return "Cat's game!"
 else play(board)
 end ##kind of a pseudocode for general idea 
