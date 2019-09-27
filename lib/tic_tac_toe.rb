@@ -150,6 +150,6 @@ do turn(board)
 end 
 
   
-end ##kind of a pseudocode for general idea 
+ ##kind of a pseudocode for general idea 
 
 
