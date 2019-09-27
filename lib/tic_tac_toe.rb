@@ -152,5 +152,5 @@ if won?(board)==true
   elsif draw?(board)
   return "Cat's game!"
 end ##kind of a pseudocode for general idea 
-
+end 
 
