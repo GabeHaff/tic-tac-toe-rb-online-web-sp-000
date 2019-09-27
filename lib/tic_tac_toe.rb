@@ -146,7 +146,7 @@ end
    
 def play(board)
 while turn(board)
-do over?(board)
+
 
   
 end ##kind of a pseudocode for general idea 
