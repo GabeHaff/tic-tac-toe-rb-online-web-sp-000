@@ -149,7 +149,7 @@ until over?(board)
  turn(board)
 end 
 if won?(board)
-  puts"Congratulations#{winner}!"
+  return"Congratulations#{winner}!"
   elsif draw?(board)
-  return "Cat's Game!"
+  print "Cat's Game!"
 end
