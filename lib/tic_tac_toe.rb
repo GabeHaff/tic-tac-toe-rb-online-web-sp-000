@@ -145,8 +145,9 @@ def winner(board)
 end
    
 def play(board)
-while turn(board)
-
+until over?(board)
+do turn(board)
+end 
 
   
 end ##kind of a pseudocode for general idea 
