@@ -148,8 +148,8 @@ def play(board)
 until over?(board)
  turn(board)
 end 
-if won?
-  
- ##kind of a pseudocode for general idea 
-
+if won?(board)
+  puts"Congratulations#{winner}!"
+  elsif draw?(board)
+  return "Cat's Game!"
 end
