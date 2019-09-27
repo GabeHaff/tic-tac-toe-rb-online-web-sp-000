@@ -151,7 +151,6 @@ if won?(board)
   return "Congratulations!"
   elsif draw?(board) 
   return "Cat's game!"
-else play(board)
 end ##kind of a pseudocode for general idea 
 
 
